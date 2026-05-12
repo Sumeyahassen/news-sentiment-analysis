@@ -85,5 +85,73 @@ This report presents the exploratory analysis of the Financial News dataset cont
 
 ## 6. Task 2
 
+# News Sentiment Analysis for Stock Price Prediction
 
+**Project:** Financial News Sentiment Analysis + Technical Indicators  
+## Project Overview
+This project analyzes the relationship between financial news sentiment and stock price movements using NLP and Technical Analysis.
+
+---
+
+## Task 1: Exploratory Data Analysis (EDA)
+
+**Objective:** Understand the structure and patterns in the financial news dataset.
+
+### Key Findings
+- **Total Articles**: 1,407,328
+- **Date Range**: 2020 (full year)
+- **Most Active Publisher**: Benzinga Insights
+- **Stocks with highest coverage**: AAPL, TSLA, AMZN, etc.
+- **Average Headline Length**: 7.312051e+01 characters
+
+### Visualizations
+- Top 10 Publishers
+- Top 10 Stocks by News Volume
+- Headline Length Distribution
+- Daily & Weekly News Publication Volume
+- Top 20 Most Common Words in Headlines
+
+**Notebook**: `notebooks/eda_task1.ipynb`
+
+---
+
+## Task 2: Technical Indicators Analysis
+
+**Objective:** Download historical stock prices and compute technical indicators.
+
+### Stocks Analyzed
+- AAPL (Main)
+- TSLA, AMZN, MSFT, GOOGL (Optional)
+
+### Technical Indicators Used
+- **Trend Indicators**: SMA(20), SMA(50), EMA(20)
+- **Momentum**: RSI(14)
+- **Trend Momentum**: MACD + Signal Line + Histogram
+
+### Visualizations
+- Price Chart with Moving Averages
+- RSI with Overbought/Oversold levels
+- MACD Indicator
+
+**Notebook**: `notebooks/task2_technical_indicators.ipynb`
+
+**Key Insight**: Technical indicators successfully captured trends and momentum shifts in AAPL and other stocks.
+
+---
+
+## Task 3: Sentiment Analysis & Correlation (In Progress)
+
+- Sentiment scoring using TextBlob / VADER
+- Correlation between news sentiment and daily stock returns
+
+---
+
+## Technologies Used
+- **Data Analysis**: Pandas, NumPy
+- **Visualization**: Matplotlib, Seaborn
+- **NLP**: TextBlob, NLTK
+- **Technical Analysis**: TA-Lib, yfinance
+- **Environment**: Python 3.12, Virtual Environment, GitHub
+
+## Project Structure
 ---
