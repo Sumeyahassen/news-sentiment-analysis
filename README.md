@@ -132,6 +132,8 @@ This project analyzes the relationship between financial news sentiment and stoc
 - Price Chart with Moving Averages
 - RSI with Overbought/Oversold levels
 - MACD Indicator
+- <img width="1130" height="526" alt="image" src="https://github.com/user-attachments/assets/1c769dd4-7dcd-4eaf-a9b2-3955040051e3" />
+
 
 **Notebook**: `notebooks/task2_technical_indicators.ipynb`
 
