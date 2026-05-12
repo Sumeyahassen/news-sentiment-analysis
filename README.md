@@ -28,34 +28,46 @@ This report presents the exploratory analysis of the Financial News dataset cont
 
 ### 3.2 Most Active Publishers
 
-![Top 10 Publishers](../images/top_publishers.png)
+![Top 10 Publishers]
+<img width="987" height="590" alt="image" src="https://github.com/user-attachments/assets/630cbe84-584e-4184-9d99-a836f1e7c869" />
+
 
 **Observation:** Benzinga Insights is by far the most active publisher.
 
 ### 3.3 Stocks with Most News Coverage
 
-![Top 10 Stocks](../images/top_stocks.png)
+![Top 10 Stock]
+<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/5f9e6711-1e55-4334-8ee5-c98d25df44ea" />
+
 
 **Observation:** Stocks like [TSLA, AAPL, AMZN, etc.] receive the highest news volume.
 
 ### 3.4 Headline Length Distribution
 
-![Headline Length](../images/headline_length.png)
+![Headline Length]
+<img width="876" height="547" alt="image" src="https://github.com/user-attachments/assets/4f3bbca4-d619-40e5-b4db-a7676c5061cd" />
+
 
 - Average headline length: **7.312051e+01**
 - Most headlines are between 7.700000e+01 Words.
 
 ### 3.5 News Publication Frequency
 
-![Daily News Volume](../images/daily_volume.png)
+![Daily News Volume]
+<img width="1389" height="689" alt="image" src="https://github.com/user-attachments/assets/edd63ee4-117b-4b94-8659-e5da9ec35086" />
 
-![Weekly News Volume](../images/weekly_volume.png)
+
+![Weekly News Volume]
+<img width="1389" height="690" alt="image" src="https://github.com/user-attachments/assets/06d14b65-b964-4c02-9a72-3ce9b777c5b5" />
+
 
 **Observation:** Clear spikes in news volume during certain periods (earnings season, market events).
 
 ### 3.6 Most Common Words in Headlines
 
-![Top Words](../images/top_words.png)
+![Top Words]
+<img width="1389" height="690" alt="image" src="https://github.com/user-attachments/assets/b3caa501-375c-40e2-a6fe-da8464bbbfcc" />
+
 
 **Top Keywords:** upgrade, downgrade, price target, earnings, beat, miss, etc.
 
