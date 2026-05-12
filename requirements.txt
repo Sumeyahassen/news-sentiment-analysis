@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+yfinance
+textblob
+nltk
+scikit-learn
+wordcloud
+jupyter
+ta-lib  
+pynance
